@@ -1,0 +1,20 @@
+h1{
+    color:white;
+    background-color: black;
+    text-align: center;
+}
+/* apply css inside the div of li tag for p */
+div li p{
+   color: blue;
+   background-color: burlywood;
+}
+/* direct apply the property for p inside the div */
+div > p{
+    color: red;
+    background-color: cornflowerblue;
+}
+/* if p is right after the div then apply the css for that */
+div + p{
+    color: darkgreen;
+    background-color: darkgrey;
+}

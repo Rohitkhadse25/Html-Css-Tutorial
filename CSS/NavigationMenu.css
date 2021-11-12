@@ -1,0 +1,44 @@
+.navbar{
+    color: white;
+     background-color: black;
+     border-radius: 40px;
+    
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: left;
+    list-style: none;
+    padding: 3px 3px;
+    margin: 12px 12px;
+}
+.navbar li a{
+    padding: 3px 4px;
+    text-decoration: none;
+    color: white;
+}
+.navbar li a:hover{
+    color:  blue;
+}
+.search{
+  float: right;
+    color: white;
+   margin:12px;
+ 
+  
+}
+.navbar input{
+    border:2px solid black;
+    border-radius:7px;
+    padding: 3px 17px;
+}
+.btn{
+    border:2px solid white;
+   border-radius: 4px;
+   cursor: pointer;
+   
+}
+.btn:hover{
+    background-color: green;
+}

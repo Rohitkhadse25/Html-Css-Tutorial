@@ -1,0 +1,22 @@
+/* BoxModel, Margin And Padding */
+.Box{
+    background-color: royalblue;
+    border: 10px solid grey;
+    padding: 50px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+    padding: 22px 40px 20px 20px; /* padding:Top Right bottom Left in one padding*/
+    margin: 34px;
+    
+}
+.BoxTwo{
+    background-color: hotpink;
+    border:5px solid black;
+    border-radius: 10px;
+    padding: 20px;
+    box-sizing:border-box; /* use for automatic expand sixe of box when we written content in box*/
+  
+}
+body{
+    background-color: cornflowerblue;
+}

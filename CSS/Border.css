@@ -1,0 +1,26 @@
+/* Border And Background */
+#ParaOne{
+    background-color: rgb(173, 131, 131);
+    height: 100px;
+    width: 445px;
+    border-width: 3px;
+    border-style:solid;
+    border-radius: 10px;
+    border-color: royalblue;
+    border-top:5px solid steelblue;
+    border-left:5px solid teal;
+    border-right: 5px solid red;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+#SecondPara{
+    height: 300px;
+    width: 400px;
+    background-image:url(/HTML/Images/Css.png);
+    border: 2px solid red;
+    background-repeat:no-repeat;  /*x repeat from vertical y repeat from vertical*/
+    background-position: 5rem;
+    background-position-y: 1.5rem;
+
+}

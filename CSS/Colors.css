@@ -1,0 +1,17 @@
+/* Element selector css */
+h1{
+    color: darkslateblue;
+    background-color: greenyellow;
+}
+/* id selector css */
+#firstPara{
+    color:red;
+    background-color: grey;
+}
+#secondPara{
+    color: rgb(139, 91, 173); /* color by rgb value*/
+}
+/* class selector css */
+.Para{
+    color:lightseagreen;
+}

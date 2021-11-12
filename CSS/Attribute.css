@@ -1,0 +1,51 @@
+.container{
+    margin: 34px 23px;
+    display: block;
+    width: 233px;
+    margin: auto;
+}
+/* Suedo Slectors */
+input[type='text']{
+    display: block;
+   padding: 23px;  
+   border: 2px solid black;
+    
+}
+input[type='password']{
+    display: block;
+   padding: 14px;  
+   border: 2px solid blue;
+    
+}
+input[type='submit']{
+    display: block;
+   padding: 5px;  
+   color: royalblue;
+   background-color: seashell;
+   border: 2px solid purple;
+    
+}
+
+a[target]{
+    font-size: 40px;
+    color: darkviolet;
+}
+a[target='_self']{
+    font-size: 30px;
+    color:red;
+}
+/* this is apply css for third child in li tag */
+li:nth-child(3){
+color:orange;
+}
+/* apply the css in every second li*/
+li:nth-child(2n+0){
+    color: hotpink;
+}
+/* odd Child */
+li:nth-child(odd){
+  background-color: lawngreen;
+}
+li:nth-child(even){
+    background-color:lightslategrey;
+}

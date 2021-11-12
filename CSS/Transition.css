@@ -1,0 +1,24 @@
+.box{
+    display: flex;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    color: white;
+     /* transition-property: background-color; 
+     transition-duration: 1s;
+     transition-timing-function: ease-in;
+     transition-delay: 2s; */
+
+     /* tranistion short hand property in shorthand */
+     transition: background-color 2s ease-in-out 1s;
+    } 
+.box:hover{
+    background-color:turquoise;
+    height: 400px;
+    width: 400px;
+    border-radius: 10px;
+    font-size: 50px;
+}

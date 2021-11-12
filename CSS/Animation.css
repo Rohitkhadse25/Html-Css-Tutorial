@@ -1,0 +1,53 @@
+.container{
+    display: flex;
+    background-color: red;
+}
+.box{
+    width: 250px;
+    height: 250px;
+    margin: 2px;
+    padding: 10px;
+    border: 2px solid red;
+    background-color: black;
+    position: relative;
+    /* animation-name: Myanimation; */
+ animation-name: Myanimation2Type;
+    animation-duration:2s;
+    animation-iteration-count: 5;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 2s; */
+    animation-direction:alternate-reverse;
+
+    /* animation in shorthand */
+    /* animation: animation-name animation-duration animation-timing-function animation delay animation-iteration-count animation-fill-mode; */
+}
+
+@keyframes Myanimation {
+    from{
+        width: 500px;
+
+        }
+        to {
+            width: 300px;
+        
+        }
+}
+ @keyframes Myanimation2Type{
+    0%{
+  top:0px;
+  left:0px;
+    }
+    25%{
+top:100px;
+  left:0px;
+    }
+    75%{
+top:250px;
+  left:0px;
+    }
+    100%{
+top:500px;
+  left:0px;
+    }
+} 
